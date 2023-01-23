@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    display: block;
+}
+#header-img{
+  width:400;
+}
+.logo{
+  position:fixed;
+  left:0;
+  top:4px;
+  display:flex;
+  flex-wrap:wrap;
+  width:50%;
+  box-sizing:content-box;
+
+}
+#nav-bar{
+  position:fixed;
+  margin-top:-90px;
+  width:100%;
+  display:flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-content: normal;
+justify-content: flex-end;
+align-items: center;
+  text-align: center;
+    padding: 0 50px;
+}
+#video{
+  width:500; 
+}
+#white-bar{
+  top:0;
+  left:0;
+  background-color:white;
+  width:100%;
+  height:60px;
+  position:fixed;
+  border-bottom:2px solid black;
+}
+a{
+  color:black;
+  text-decoration:none;
+  font-size:28px;
+  padding:20px;
+  display:flex;
+  flex-wrap:nowrap;
+}
+.icon{
+  width:90px;
+}
+#features{
+padding:20px;
+margin-top:0px;
+margin-left:14%;
+margin-right:14%
+}
+.prem{
+display:flex;
+color:black;
+}
+.fast{
+display:flex;
+color:black;
+}
+.qua{
+display:flex;
+color:black;
+}
+p{
+  padding-left:20px;
+  padding-top:10px;
+}
+h2{
+  padding-left:20px;
+  padding-top:10px;
+}
+#how_it_works{
+   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom:100px;
+}
+#how-it-works > iframe {
+    max-width: 560px;
+    width: 100%;
+}
+input, #news{
+display:flex;
+padding:10px;
+
+}
+#pricing{
+  margin:100px auto 10px auto;
+
+}
+#submit,#email{
+  margin:20px auto;
+}
+@media (max-width: 650px)
+nav {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+}
+#news{
+  display:flex;
+justify-content:center;
+margin-top:-20px;
+font-weight:normal;
+}
